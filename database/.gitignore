@@ -1,2 +1,17 @@
 *.sqlite
 *.sqlite-journal
+
+/ vendor /
+node_modules /
+
+
+# Específico do Laravel 5 e Lumen com caminho público alterado
+public_html / storage
+public_html / hot
+
+storage / * .key
+.env
+Homestead.yaml
+Homestead.json
+/ .vagrant
+.phpunit.result.cache
